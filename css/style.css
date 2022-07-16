@@ -1,0 +1,151 @@
+body{
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+.header{
+  background-color: #000;
+}
+.header-line , 
+.footer-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0e0d0d;
+}
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  list-style: none;
+  margin: 0;
+}
+.main-menu a{
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header-bg{
+  padding: 130px 100px;
+  box-sizing: border-box;
+  color: #fff;
+  width: 95%;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg);
+}
+.header-bg a{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 22px 52px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-top: 4px solid #6bc349;
+  border-bottom: 4px solid rgba(0,0,0,.3);
+  background-color: #3b8526;
+  transition: 0.5s all ease;
+}
+h1{
+  font-size: 36px;
+  margin: 0;
+}
+.header-content{
+  width: 35%;
+}
+.header-content p{
+  font-size: 18px;
+  line-height: 26px;
+}
+.main{
+  padding: 50px 0;
+  background-color: #1c1c1c;
+}
+h2{
+  margin: 0;
+}
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.games{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+h2{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+p , h3{
+  font-size: 22px;
+  line-height: 22px;
+}
+p{
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li{
+  font-weight: bold;
+}
+h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+.games>div{
+    width: 30%;
+}
+.games img{
+  width: 100%;
+}
+.footer-line{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-line img{
+  width: 10%;
+}
+.footer{
+  border-top: 10px;
+  background-color: #030c00;
+}
+.header-bg a:hover{ 
+  background-color: #030c00;
+  border-top: 4px solid #030c00;
+}
+h3{
+  font-weight: 700;
+  color: green;
+  font-size: 20px;
+  line-height: 24px;
+}
+.footer-line a{
+  color:#fafafa;
+}
+.footer-menu{ 
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+h3:hover{
+  color:#000;
+}
+.main-menu li{
+  color:#000;
+}
+p{
+  font-size: 19px;
+}
+.footer-menu a{
+  text-decoration: none;
+}
